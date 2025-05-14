@@ -1,0 +1,61 @@
+
+{
+  "id": 4,
+  "title": "Quick 4",
+  "description": "Test your knowledge across a variety of topics!",
+  "isSpecial": false,
+  "questions": [
+    {
+      "id": "q4-1",
+      "type": "multiple-choice",
+      "text": "Which four of these characters from the Ramayana belong to the monkey (Vanara) family?",
+      "answers": [
+        { "text": "Hanuman", "isCorrect": true },
+        { "text": "Angada", "isCorrect": true },
+        { "text": "Meghnad", "isCorrect": false }, 
+        { "text": "Bali", "isCorrect": true },
+        { "text": "Mandodari", "isCorrect": false },
+        { "text": "Sugriva", "isCorrect": true }
+      ]
+    },
+    {
+      "id": "q4-2",
+      "type": "multiple-choice",
+      "text": "Which four of these characters from the Ramayana belong to the monkey (Vanara) family?",
+      "answers": [
+        { "text": "Hanuman", "isCorrect": true },
+        { "text": "Angada", "isCorrect": true },
+        { "text": "Meghnad", "isCorrect": false }, 
+        { "text": "Bali", "isCorrect": true },
+        { "text": "Mandodari", "isCorrect": false },
+        { "text": "Sugriva", "isCorrect": true }
+      ]
+    },
+    {
+      "id": "q4-3",
+      "type": "multiple-choice",
+      "text": "Which four of these characters from the Ramayana belong to the monkey (Vanara) family?",
+      "answers": [
+        { "text": "Hanuman", "isCorrect": true },
+        { "text": "Angada", "isCorrect": true },
+        { "text": "Meghnad", "isCorrect": false }, 
+        { "text": "Bali", "isCorrect": true },
+        { "text": "Mandodari", "isCorrect": false },
+        { "text": "Sugriva", "isCorrect": true }
+      ]
+    },
+    {
+      "id": "q4-4",
+      "type": "multiple-choice",
+      "text": "Which four of these characters from the Ramayana belong to the monkey (Vanara) family?",
+      "answers": [
+        { "text": "Hanuman", "isCorrect": true },
+        { "text": "Angada", "isCorrect": true },
+        { "text": "Meghnad", "isCorrect": false }, 
+        { "text": "Bali", "isCorrect": true },
+        { "text": "Mandodari", "isCorrect": false },
+        { "text": "Sugriva", "isCorrect": true }
+      ]
+    }
+  ]
+}

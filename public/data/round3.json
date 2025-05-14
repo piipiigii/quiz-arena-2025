@@ -1,0 +1,240 @@
+
+{
+  "id": 3,
+  "title": "Choose Your Topic",
+  "description": "Select from a variety of subjects and answer questions!",
+  "isSpecial": true,
+  "subjects": [
+    {
+      "id": "sports",
+      "name": "Sports",
+      "questions": [
+        {
+          "id": "sports-1",
+          "type": "multiple-choice",
+          "text": "Which country won the FIFA World Cup in 2018?",
+          "answers": [
+            { "text": "Brazil", "isCorrect": false },
+            { "text": "Germany", "isCorrect": false },
+            { "text": "France", "isCorrect": true, "explanation": "France defeated Croatia 4-2 in the final match." },
+            { "text": "Argentina", "isCorrect": false }
+          ],
+          "mediaAnswer": {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/2018_FIFA_World_Cup_trophy.jpg/800px-2018_FIFA_World_Cup_trophy.jpg",
+            "caption": "The 2018 FIFA World Cup trophy"
+          }
+        },
+        {
+          "id": "sports-2",
+          "type": "media-first",
+          "text": "In which sport would you perform this move?",
+          "media": {
+            "type": "video",
+            "url": "https://www.pexels.com/video/basketball-player-doing-a-slam-dunk-3209882/",
+            "caption": "Sports move"
+          },
+          "answers": [
+            { "text": "Football", "isCorrect": false },
+            { "text": "Basketball", "isCorrect": true, "explanation": "This is a slam dunk in basketball." },
+            { "text": "Volleyball", "isCorrect": false },
+            { "text": "Tennis", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "history",
+      "name": "History",
+      "questions": [
+        {
+          "id": "history-1",
+          "type": "open-ended",
+          "text": "In what year did World War II end?",
+          "correctAnswer": "1945",
+          "mediaAnswer": {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Celebrations_of_VJ_Day_in_Hawaii_%281945%29.jpg",
+            "caption": "Celebrations at the end of World War II in 1945"
+          }
+        },
+        {
+          "id": "history-2",
+          "type": "multiple-choice",
+          "multipleCorrect": true,
+          "text": "Which of these people were U.S. Presidents?",
+          "answers": [
+            { "text": "Thomas Jefferson", "isCorrect": true, "explanation": "3rd President of the United States (1801-1809)" },
+            { "text": "Benjamin Franklin", "isCorrect": false },
+            { "text": "George Washington", "isCorrect": true, "explanation": "1st President of the United States (1789-1797)" },
+            { "text": "Alexander Hamilton", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "id": "mythology",
+      "name": "Indian Mythology",
+      "questions": [
+        {
+          "id": "mythology-1",
+          "type": "open-ended",
+          "text": "Mahabharat?",
+          "correctAnswer": "1945",
+          "mediaAnswer": {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Celebrations_of_VJ_Day_in_Hawaii_%281945%29.jpg",
+            "caption": "Celebrations at the end of World War II in 1945"
+          }
+        },
+        {
+          "id": "mythology-2",
+          "type": "open-ended",
+          "text": "What is Mahabharat?",
+          "correctAnswer": "1945",
+          "mediaAnswer": {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Celebrations_of_VJ_Day_in_Hawaii_%281945%29.jpg",
+            "caption": "Celebrations at the end of World War II in 1945"
+          }
+        },
+        {
+          "id": "mythology-3",
+          "type": "multiple-choice",
+          "multipleCorrect": true,
+          "text": "Ramayan?",
+          "answers": [
+            { "text": "Thomas Jefferson", "isCorrect": true, "explanation": "3rd President of the United States (1801-1809)" },
+            { "text": "Benjamin Franklin", "isCorrect": false },
+            { "text": "George Washington", "isCorrect": true, "explanation": "1st President of the United States (1789-1797)" },
+            { "text": "Alexander Hamilton", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "mythology-4",
+          "type": "multiple-choice",
+          "multipleCorrect": true,
+          "text": "What is Ramayan?",
+          "answers": [
+            { "text": "Thomas Jefferson", "isCorrect": true, "explanation": "3rd President of the United States (1801-1809)" },
+            { "text": "Benjamin Franklin", "isCorrect": false },
+            { "text": "George Washington", "isCorrect": true, "explanation": "1st President of the United States (1789-1797)" },
+            { "text": "Alexander Hamilton", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "id": "science",
+      "name": "Science",
+      "questions": [
+        {
+          "id": "science-1",
+          "type": "multiple-choice",
+          "text": "What is the chemical symbol for gold?",
+          "answers": [
+            { "text": "Ag", "isCorrect": false },
+            { "text": "Au", "isCorrect": true, "explanation": "The chemical symbol for gold is Au, derived from the Latin 'aurum'." },
+            { "text": "Pb", "isCorrect": false },
+            { "text": "Fe", "isCorrect": false }
+          ],
+          "mediaAnswer": {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Gold_nugget.jpg/800px-Gold_nugget.jpg",
+            "caption": "Gold nugget"
+          }
+        },
+        {
+          "id": "science-2",
+          "type": "open-ended",
+          "text": "What is the speed of light in vacuum?",
+          "correctAnswer": 299792458,
+          "mediaAnswer": {
+            "type": "image",
+            "url": "",
+            "caption": ""
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "geography",
+      "name": "Geography",
+      "questions": [
+        {
+          "id": "geography-1",
+          "type": "multiple-choice",
+          "text": "What is the capital of France?",
+          "answers": [
+            { "text": "Berlin", "isCorrect": false },
+            { "text": "Madrid", "isCorrect": false },
+            { "text": "Paris", "isCorrect": true, "explanation": "The capital of France is Paris." },
+            { "text": "Rome", "isCorrect": false }
+          ],
+          "mediaAnswer": {
+            "type": "image",
+            "url": "",
+            "caption": ""
+          }
+        },
+        {
+          "id": "geography-2",
+          "type": "open-ended",
+          "text": "What is the largest desert in the world?",
+          "correctAnswer": "Antarctic Desert",
+          "mediaAnswer": {
+            "type": "",
+            "url": "",
+            "caption": ""
+          }
+        }
+      ]
+    },
+
+    
+
+    {
+      "id": "movies",
+      "name": "Movies",
+      "questions": [
+        {
+          "id": "movies-1",
+          "type": "media-first",
+          "text": "Which famous director is shown in this image?",
+          "media": {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Steven_Spielberg_Masterclass_Cinémathèque_Française_2.jpg/1920px-Steven_Spielberg_Masterclass_Cinémathèque_Française_2.jpg",
+            "caption": "Famous film director"
+          },
+          "answers": [
+            { "text": "Steven Spielberg", "isCorrect": true, "explanation": "Steven Spielberg is known for directing films like 'Jaws', 'E.T.', 'Jurassic Park', and 'Schindler's List'." },
+            { "text": "George Lucas", "isCorrect": false },
+            { "text": "Martin Scorsese", "isCorrect": false },
+            { "text": "Francis Ford Coppola", "isCorrect": false }
+          ]
+        },
+        {
+          "id": "movies-2",
+          "type": "multiple-choice",
+          "text": "Which movie features a character named Jack Dawson?",
+          "answers": [
+            { "text": "The Revenant", "isCorrect": false },
+            { "text": "Inception", "isCorrect": false },
+            { "text": "Titanic", "isCorrect": true, "explanation": "Jack Dawson was played by Leonardo DiCaprio in the 1997 film 'Titanic'." },
+            { "text": "The Great Gatsby", "isCorrect": false }
+          ],
+          "mediaAnswer": {
+            "type": "image",
+            "url": "https://upload.wikimedia.org/wikipedia/en/1/19/Titanic_%28Official_Film_Poster%29.png",
+            "caption": "Titanic (1997) movie poster"
+          }
+        }
+      ]
+    }
+  ]
+}

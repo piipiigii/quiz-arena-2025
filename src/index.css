@@ -1,0 +1,163 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 263 70% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 240 5.9% 10%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 266 100% 64%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 240 10% 3.9%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 263 70% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 240 4.9% 83.9%;
+  }
+
+  .light {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 263 70% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 266 100% 64%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .quiz-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #2D3A80 0%, #1E3A8A 60%, oklch(38.1% 0.176 304.987) 100%);
+  }
+
+  .quiz-slide {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    overflow-y: auto;
+  }
+
+  .question-container {
+    @apply w-full max-w-4xl p-8 rounded-lg bg-indigo-900/60 border border-indigo-300/20 shadow-lg backdrop-blur-sm;
+  }
+
+  .topic-button {
+    @apply bg-indigo-700 hover:bg-indigo-600 text-white font-semibold py-4 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-md;
+  }
+
+  .quiz-header {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-8 text-center;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  }
+
+  .quiz-subheader {
+    @apply text-2xl md:text-3xl lg:text-4xl font-semibold text-white mb-6 text-center;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .media-container {
+    @apply w-full max-w-3xl mx-auto mb-8 rounded-lg overflow-hidden shadow-xl border border-indigo-300/30;
+  }
+  
+  .fullscreen-media {
+    @apply fixed inset-0 bg-indigo-950 z-50 flex items-center justify-center p-4;
+  }
+
+  /* New gradient classes */
+  .indigo-blue-gradient {
+    @apply bg-gradient-to-br from-indigo-900 to-blue-900;
+  }
+
+  .indigo-blue-gradient-light {
+    @apply bg-gradient-to-br from-indigo-800 to-blue-700;
+  }
+
+  .indigo-blue-card {
+    @apply bg-indigo-900/80 border border-indigo-300/20 backdrop-blur-sm rounded-lg shadow-lg;
+  }
+
+  .contrast-text {
+    @apply text-indigo-100;
+  }
+
+  .contrast-button {
+    @apply bg-indigo-500 hover:bg-indigo-400 text-white transition-colors;
+  }
+}
+

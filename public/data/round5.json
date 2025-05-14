@@ -1,0 +1,63 @@
+{
+  "id": 5,
+  "title": "Rapid Fire",
+  "description": "Test your knowledge across a variety of topics!",
+  "isSpecial": false,
+  "isRapidFire": true,
+  "questions": [
+    {
+      "id": "q5-1",
+      "type": "multiple-choice",
+      "text": "What is the capital of France?",
+      "answers": [
+        { "text": "London", "isCorrect": false },
+        { "text": "Berlin", "isCorrect": false },
+        { "text": "Paris", "isCorrect": true, "explanation": "Paris is the capital and most populous city of France." },
+        { "text": "Madrid", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "q5-2",
+      "type": "media-first",
+      "text": "Identify this famous playwright who wrote 'Romeo and Juliet'.",
+      "media": {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/800px-Shakespeare.jpg",
+        "caption": "Portrait of the playwright"
+      },
+      "answers": [
+        { "text": "Charles Dickens", "isCorrect": false },
+        { "text": "William Shakespeare", "isCorrect": true, "explanation": "William Shakespeare was an English poet, playwright, and actor. He is widely regarded as the greatest writer in the English language." },
+        { "text": "Jane Austen", "isCorrect": false },
+        { "text": "Mark Twain", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "q5-3",
+      "type": "multiple-choice",
+      "text": "Which of these planets is the largest in our solar system?",
+      "media": {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+        "caption": "The largest planet in our solar system"
+      },
+      "answers": [
+        { "text": "Earth", "isCorrect": false },
+        { "text": "Mars", "isCorrect": false },
+        { "text": "Jupiter", "isCorrect": true, "explanation": "Jupiter is the fifth planet from the Sun and the largest in the Solar System." },
+        { "text": "Saturn", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "q5-4",
+      "type": "open-ended",
+      "text": "What significant historical event began in 1939 and ended in 1945?",
+      "correctAnswer": "World War II",
+      "mediaAnswer": {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/World_War_II_Casualties2.svg",
+        "caption": "World War II casualties map"
+      }
+    }
+  ]
+}

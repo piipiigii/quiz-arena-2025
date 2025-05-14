@@ -1,0 +1,69 @@
+
+{
+  "id": 2,
+  "title": "Science & Technology",
+  "description": "Explore the wonders of science and technology!",
+  "isSpecial": false,
+  "questions": [
+    {
+      "id": "q2-1",
+      "type": "media-first",
+      "text": "Listen to this sound and identify which animal makes it.",
+      "media": {
+        "type": "audio",
+        "url": "https://www.soundjay.com/nature/sounds/lion-roar-01.mp3",
+        "caption": "Animal sound"
+      },
+      "answers": [
+        { "text": "Tiger", "isCorrect": false },
+        { "text": "Lion", "isCorrect": true, "explanation": "This is the roar of a lion, often called the 'king of the jungle'." },
+        { "text": "Bear", "isCorrect": false },
+        { "text": "Wolf", "isCorrect": false }
+      ]
+    },
+    {
+      "id": "q2-2",
+      "type": "multiple-choice",
+      "text": "What is the chemical symbol for gold?",
+      "answers": [
+        { "text": "Go", "isCorrect": false },
+        { "text": "Gd", "isCorrect": false },
+        { "text": "Au", "isCorrect": true, "explanation": "Au comes from the Latin word 'aurum', meaning gold." },
+        { "text": "Ag", "isCorrect": false }
+      ],
+      "mediaAnswer": {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Gold-crystals.jpg/1024px-Gold-crystals.jpg",
+        "caption": "Gold crystals"
+      }
+    },
+    {
+      "id": "q2-3",
+      "type": "multiple-choice",
+      "multipleCorrect": true,
+      "text": "Which of these elements are noble gases?",
+      "answers": [
+        { "text": "Helium", "isCorrect": true, "explanation": "Helium (He) is a noble gas." },
+        { "text": "Oxygen", "isCorrect": false },
+        { "text": "Neon", "isCorrect": true, "explanation": "Neon (Ne) is a noble gas." },
+        { "text": "Argon", "isCorrect": true, "explanation": "Argon (Ar) is a noble gas." }
+      ]
+    },
+    {
+      "id": "q2-4",
+      "type": "media-first",
+      "text": "Watch this clip and identify what natural phenomenon is being shown.",
+      "media": {
+        "type": "video",
+        "url": "https://www.videvo.net/video/northern-lights-in-iceland-1/3318/",
+        "caption": "Natural phenomenon"
+      },
+      "answers": [
+        { "text": "Tornado", "isCorrect": false },
+        { "text": "Solar Eclipse", "isCorrect": false },
+        { "text": "Northern Lights (Aurora Borealis)", "isCorrect": true, "explanation": "The Northern Lights, or Aurora Borealis, is a natural light display in Earth's sky, predominantly seen in high-latitude regions." },
+        { "text": "Lightning Storm", "isCorrect": false }
+      ]
+    }
+  ]
+}
